@@ -1,0 +1,1 @@
+Print max using ternary (Ez)
