@@ -1,0 +1,1 @@
+Check if a given number is divisible by another given number (Ez)
