@@ -1,0 +1,1 @@
+Sum of squares of first n numbers
