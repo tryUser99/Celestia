@@ -1,0 +1,1 @@
+Sum of series 1+3+5+7+...n
