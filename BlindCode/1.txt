@@ -1,1 +1,1 @@
-WAP to check number is odd or even
+WAP to check number is odd or even(Ez)
