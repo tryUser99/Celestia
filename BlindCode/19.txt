@@ -1,0 +1,1 @@
+Check if a given number ends with 0 (Ez)
