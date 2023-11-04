@@ -1,0 +1,1 @@
+WAP to check whether person is adult or no taking age as input (Ez)
