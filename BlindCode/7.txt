@@ -1,0 +1,1 @@
+Calculate the area of a rectangle with given length and width (Ez)
