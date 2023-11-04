@@ -1,0 +1,1 @@
+Calculate the sum of digits of a number
