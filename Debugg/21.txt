@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() { int i = 1;
+while (i < 5) {
+printf("i = %d\n", i);
+}
+int j = 1;
+while (j <= 5) { printf("j = %d\n", j);
+j--; 
+}
+ 
+int k = 1;
+while (k < 10) {
+if (k % 2 == 0) {
+printf("%d is even\n", k);
+} else {
+printf("%d is odd\n", k);
+k = k + 2; 
+}
+}
+
+return 0;
+}
