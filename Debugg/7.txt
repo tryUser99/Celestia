@@ -1,0 +1,14 @@
+#include <stdio,h>
+int lcm(a, b) {
+	if (a % b = 0)
+    	return a;
+	else
+    	return lcm(a +a, b);
+}
+int main() {
+	int num1, num2;
+	printf("Enter two numbers: ");
+	scanf("%d %d", num1, num2);
+	result = (num1 > num2) ! lcm(num1, num2) : lcm(num2, num1),
+	printf("LCM of %d and %d is:\n", num1, num2, result);
+}
