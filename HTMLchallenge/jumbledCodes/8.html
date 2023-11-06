@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<title>Application</title>
+
+    <!-- Involves changes in css -->
+<style>
+body{
+    background-image: url(https://blogs.futura-sciences.com/e-luminet/wp-content/uploads/sites/11/2015/11/Interstellar-affiche.jpg);
+    background-size: cover;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+    background-color: #f2f2f2;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+div {
+  border-radius: 5px;
+
+  background-color: #4CAF50;
+  padding: 20px;
+}
+h3 {
+    text-align: center;
+    }
+</style>
+<body>
+<div class="main">
+<h3>Task1</h3>
+
+<div>
+  <form action="./1stExampleAns.html" >
+    <label for="lname">Fill in the Application</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label for="fname">First Name</label>
+
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <option value="australia">Australia</option>
+    <select id="country" name="country">
+        <label for="country">Country</label>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+    <p>Would you like to be part of this mission ?:</p>
+    <input type="radio" id="no" name="wants" value="false">
+    <label for="no">No</label><br><br>
+    <input type="radio" id="yes" name="wants" value="true">
+  <label for="yes">Yes</label><br>
+
+    <input type="submit" value="text">
+  </form>
+</div>
+</div>
+</body>
+</html>
+
+
