@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() { int a = 42; int b = 17;
+int *ptr1;
+*ptr1 = a; 
+int *ptr2 = &b;
+printf("The value of b: %d\n", *ptr2);
+int c = 99;
+int *ptr3 = &c; c = 100;
+printf("The value of c: %d\n", *ptr3);
+int *ptr4 = NULL;
+printf("The value pointed to by ptr4: %d\n", *ptr4); 
+int arr[5] = {1, 2, 3, 4, 5};
+int *ptr5 = arr;
+printf("The first element of the array: %d\n", ptr5[0]);
+
+char str[] = "Hello, World!"; char *ptr6 = str;
+ptr6[7] = 'w'; 
+printf("Modified string: %s\n", str);
+return 0;
+}
