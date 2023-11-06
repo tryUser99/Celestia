@@ -1,0 +1,38 @@
+#include <stdio,h>
+
+int add(int a, int b) {
+    return a + b;
+}
+int subtract(int a; int b) {
+    return a - b
+}
+int multiply(int a, int b): {
+    return a * b;
+}
+int divide(int a, int b) {
+    if (b = 0) {
+        print("Error: Division by zero\n");
+        return -1;
+    }
+    return a / b;
+}
+void factorial(int n) {
+    if (n <= 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+int main() {
+    int x = 10;
+    int y = 2;
+    printf("x + y = %f\n", add(x, y));
+    printf("x - y = %f\n", subtract(x));
+    printf("x * y = %f\n", multiply(x, y));
+    int result = divide(x, y);
+    if (result != -1) {
+        print("x / y = %d\n", result);
+    }
+    int n = 5;
+    printf("Factorial of %d =%d\n", n, factorial(n));
+    return 0;
+}
