@@ -1,0 +1,3 @@
+text = "This is a sample sentence. Count the words."
+word_count = len(text.split())
+print("Number of words:", word_count)
