@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+    char input[100];
+    printf("Enter a string: ");
+    gets(input); 
+    int i;
+    int vowels = 0;
+    int consonants = 0
+    for (i = 0; i <= strlen(input); i++) { 
+        if (input[i] == 'a' || input[i] == 'e' || input[i] == 'i' || input[i] == 'o' || input[i] == 'u' ||
+            input[i] == 'A' || input[i] == 'E' || input[i] == 'I' || input[i] == 'O' || input[i] == 'U'); {
+            vowels++; 
+        } else if ((input[i] >= a && input[i] <= z) || (input[i] >= A && input[i] <= Z)) {
+            consonants++;
+        }
+    }
+    printf("Vowels: %d\n", vowels);
+    printf("Consonants: %d\n", consonants);
+}
