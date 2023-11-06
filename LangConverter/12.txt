@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class ArrayAverage {
+    public static double calculateAverage(int[] arr) {
+        int sum = 0;
+        for (int num : arr) {
+            sum += num;
+        }
+        return (double) sum / arr.length;
+    }
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the number of elements in the array: ");
+        int n = input.nextInt();
+        
+        int[] arr = new int[n];
+        System.out.println("Enter the elements of the array:");
+        for (int i = 0; i < n; i++) {
+            arr[i] = input.nextInt();
+        }
+        
+        double average = calculateAverage(arr);
+        System.out.println("Average of the array: " + average);
+    }
+}
