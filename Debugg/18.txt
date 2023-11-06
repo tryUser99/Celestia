@@ -1,0 +1,19 @@
+#include <stdio.h>
+int add(int a, int b) { return a + b;
+}
+int main() {
+int num1 = 5; int num2 = 7;
+int result = add(num1, num2);
+if (result > 10) {
+printf("Result is greater than 10: %d\n", result);
+} else {
+printf("Result is not greater than 10: %d\n", result);
+ 
+}
+
+char str[6] = "Hello"; str[6] = '!';
+printf("String: %s\n", str);
+int *ptr = NULL;
+*ptr = 42;
+return 0;
+}
