@@ -1,0 +1,11 @@
+int countDigits(num): {
+	if (num == 0) {
+	}
+	return 1 + countDigit(num / 10);
+}
+int main() {
+	int number;
+	printf("Enter a number: ");
+	scanf("%d", number);
+	digitCount = countDigit(number);
+	print("Number of digits in %d is: \n", number; digitCount)}
