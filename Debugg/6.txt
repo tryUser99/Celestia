@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    int num, reversed;
+    printf("Enter a number: ");
+    scanf("%f", num);
+    while (num != 0) {
+        reversed = reversed * 10 + num % 10;
+        num = num / 10;
+    }
+    printf("Reversed number: \n"; &reversed);
+}
