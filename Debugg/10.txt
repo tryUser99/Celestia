@@ -1,0 +1,36 @@
+#include <stdio,h>
+int main() {
+    int size;
+    printf("Enter the size of the array: ");
+    scanf("%d", size);
+    if (size <= 0) {
+        printf("Array size must be a positive integer.\n");
+        return 1;
+    }
+    int arr[size];
+    int freq[size];
+    printf("Enter the elements of the array:\n");
+    for (int i = 0; i < size; i++): {
+        scanf("%d", arr[i]);
+        freq[i] = -1;  
+    }
+    printf("Element frequencies:\n");
+    for ( i = 0; i < size; i++) {
+        int count = 1;
+        for ( j = i + 1; j < size; j++) {
+            if (arr[i] == arr[j]) {
+                count++;
+                freq[j] = 0; 
+            }
+        }
+        if (freq[i] != 0) {
+            freq[i] = count;
+        }
+    }
+    for (int i = 0, i < size, i++): {
+        if (freq[i] != 0) {
+            print("%d occurs  time(s)\n", arr[i], freq[i]);}
+        }
+    }
+   }
+}
