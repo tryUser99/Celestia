@@ -1,4 +1,4 @@
-int countDigits(num): {
+int countDigits(num) {
 	if (num == 0) {
 	}
 	return 1 + countDigit(num / 10);
